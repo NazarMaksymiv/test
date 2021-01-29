@@ -1,0 +1,121 @@
+// Write your styles here
+@font-face{
+    font-family: 'Roboto', sans-serif;   
+    src:url(/fonts/Roboto-Light.ttf);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-wrapper{
+    width: 100%;
+    position: absolute;
+    // top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.nav{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.nav a{
+    
+    padding: 35px 35px;
+    color: white;
+    text-decoration: none;
+    border-right:  2px solid #607d8b;
+    text-align: center;
+ 
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/header_background_v1.jpg) center no-repeat;
+    background-size: cover;
+}
+.intro__inner{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.intro__inner h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+
+.toolbar{
+    padding: 15px 0 20px 0;
+    width: 100%;
+
+}
+input[type="search"]{
+    margin-left: auto;
+    margin-right: 0;
+    width: 170px;
+    height: 40px;
+    display: block;
+}
+.post-list h2{
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 0;
+    text-transform: uppercase;
+
+}
+
+.about{
+    margin-top: 40px;
+    h2{
+        text-align: right;
+        text-transform: uppercase;
+    }
+    p{
+        margin-top: 10px;
+    }
+    img{
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+footer{
+   text-align: center;
+}
+
+
+

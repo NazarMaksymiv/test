@@ -1,0 +1,26 @@
+article{
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    padding: 10px 10px;
+    margin-top: 20px;
+    img{
+        width: 250px;
+        height: 250px;
+    }
+    .post{
+        margin: 10px 0 0 10px;
+        .post-description{
+            color: red;
+            border-bottom: 1px solid $main-color;
+            height: 30px;
+        }
+        h3{
+            color: $main-color;
+            margin-top: 10px;
+        }
+        p{
+            margin: 5px 0 10px 0;
+        }
+    }
+}

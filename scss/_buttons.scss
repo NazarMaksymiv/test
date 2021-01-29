@@ -1,0 +1,19 @@
+.btn{
+    background-color:#01acac;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 40px;
+
+    &.btn-more{
+        float: right;
+        margin-top: 10px;
+    }
+    &.btn-form{
+        margin-top: 10px;
+    }
+}

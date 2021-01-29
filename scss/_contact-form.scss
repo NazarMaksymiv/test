@@ -1,0 +1,39 @@
+.contact-form{
+
+    h2{
+        text-align: right;
+        margin-top: 15px;
+    }
+    h4{
+        text-align: right;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    .form{
+        margin-top: 20px;
+        text-align: right;
+        textarea{
+            width: 99.5%;
+            margin-top: 10px;
+            height: 150px;
+            border: 1px solid $main-color;
+            border-top: none;
+            color: $main-color;
+        }
+        input{
+            width: 49.5%;
+            height: 40px;
+            color: $main-color;
+            border: 1px solid $main-color;
+            border-top: none;
+            &::placeholder{
+                color: $main-color;
+            }
+        }
+    }
+
+  
+   
+    
+    
+}
